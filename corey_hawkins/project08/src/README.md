@@ -32,34 +32,6 @@ What are the most frequent types of 311 service requests located within a 0.5-mi
 
 After loading the school locations and 311 service requests datasets, and defining a search radius of approximately 0.5 miles (0.8 kilometers) around each school, the analysis revealed the following distribution of 311 service requests:
 
-*   **[Insert Top Request Type 1 Here]**: [Insert Count Here] requests
-
-*   **[Insert Top Request Type 2 Here]**: [Insert Count Here] requests
-
-*   **[Insert Top Request Type 3 Here]**: [Insert Count Here] requests
-
-*   ... (list a few more if relevant or provide a summary)
 
 Specifically, the most common types of service requests observed near school locations were **[State the top request type, e.g., 'Pothole Repair']**, accounting for [Insert specific number or percentage] of the requests within the defined proximity. Following this, **[State the second top request type, e.g., 'Graffiti Removal']** was the next most frequent with [Insert specific number or percentage]. This suggests that [Briefly interpret the finding - e.g., 'areas around schools experience a higher volume of requests related to infrastructure maintenance and general upkeep'].
 
-*(Example of how to fill this in after running the code):*
-
-*After loading the school locations and 311 service requests datasets, and defining a search radius of approximately 0.5 miles (0.8 kilometers) around each school, the analysis revealed the following distribution of 311 service requests:*
-
-*   *Pothole Repair: 1,250 requests*
-
-*   *Graffiti Removal: 875 requests*
-
-*   *Street Light Out: 630 requests*
-
-*   *Trash/Recycling Issue: 510 requests*
-
-*
-
-*Specifically, the most common types of service requests observed near school locations were **Pothole Repair**, accounting for **1,250** of the requests within the defined proximity. Following this, **Graffiti Removal** was the next most frequent with **875**. This suggests that areas around schools experience a higher volume of requests related to infrastructure maintenance and general upkeep.*
-
-## Limitations
-
-*   **Geocoding Accuracy:** The analysis relies on the accuracy of the `Latitude` and `Longitude` coordinates provided in both datasets. Inaccurate or missing coordinates for either schools or service requests could lead to misclassification or exclusion of relevant data points.
-
-*   **Radius Definition:** The chosen radius (0.5 miles) is an approximation. The actual "vicinity" of a school might be perceived differently (e.g., focusing only on the immediate block vs. a wider neighborhood). Furthermore, the Haversine formula calculates distance on a sphere, which is a simplification of the Earth's actual shape and doesn't account for road networks.
